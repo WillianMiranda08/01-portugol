@@ -1,0 +1,39 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 10/11/2022
+// 5 e 10
+
+
+Var
+// Seção de Declarações das variáveis 
+ a:inteiro
+ b:inteiro
+  problema: caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite um numero")
+leia (a)
+escreval("digite outro numero")
+leia (b)
+escreval("voce deseja somar, multiplicar,dividir ou subtrair.")
+leia(problema)
+
+caso problema <-somar
+escreval("a+b", a+b)
+
+caso problema <-subtrair
+escreval("a-b", a-b)
+
+caso problema <- dividir
+escreval("a/b", a/b)
+
+caso problema <-multiplicar
+escreval ("a*b", a*b)
+
+
+
+
+Fimalgoritmo
